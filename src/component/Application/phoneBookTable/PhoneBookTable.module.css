@@ -1,0 +1,49 @@
+body{
+    background-image: linear-gradient(32deg, rgb(252, 222, 176), rgb(205, 253, 205), rgb(250, 209, 235));
+}
+
+.table{
+    border:1px solid gray;
+    padding: 10px;
+    margin: 50px auto;
+    background-color: rgb(132, 253, 189);
+    border-radius:18px ;
+}
+.table:hover{
+    box-shadow: 0 0 8px 0 rgb(237, 90, 193);
+    
+}
+.cell{
+    color: rgb(117, 5, 5);
+    background-color: rgb(9, 193, 243);
+    border:1px solid rgba(6, 245, 78, 0.501);
+    padding: 5px 15px;
+    border-radius: 5px;
+
+}
+.cell:hover{
+    border: 1px solid rgb(255, 127, 127);
+}
+
+.cell .btnD{
+    color: azure;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(171, 5, 5);
+}
+.cell .btnE{
+    color: rgb(60, 4, 102);
+    padding: 6px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(235, 219, 4);
+}
+.cell .btnE:hover{
+    box-shadow: 0 0 8px 1px rgb(5, 208, 5);
+    transform: scale(1.04);
+}
+.cell .btnD:hover{
+    box-shadow: 0 0 8px 1px rgb(255, 132, 0);
+    transform: scale(1.03);
+}
